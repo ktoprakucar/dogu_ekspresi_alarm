@@ -1,6 +1,11 @@
 # Doğu Ekspresi Alarm Uygulaması
 Seçilen günde, Ankara-Kars doğu ekspresi tren biletleri çıktığı anda alarm çalan uygulama.
 
+## Gereksinimler
+Uygulamayı çalıştırabilmeniz için bilgisayarınızda Python'un kurulu olması gerekmektedir. Bu uygulama Jupyter Notebook'ta geliştirildi. Eğer bilgisayarınızda kurulu değilse ve sadece Python kurulu ise, kodu kopyalayıp kendi platformunuzda çalıştırabilirsiniz. 
+
+Ayrıca alarm çalmak için *playsound* paketini kullandık. Paketi PyPi'den **pip install playsound** komutu ile indirebilirsiniz
+
 ## Seçenekler
 Tarihi *date* ve kişi sayısını da *passengers* parametreleriyle belirleyip uygulamayı çalıştırın. Parametrelere herhangi bir kontrol koymadık. Tarihi **GG.AA.YYYY** formatında **String** olarak, yolcu sayısını da aynı şekilde **String** olarak girmeniz gerekmektedir. 
 
